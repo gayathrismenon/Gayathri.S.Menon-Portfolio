@@ -164,7 +164,6 @@ section .title::after{
 .about .about-content .right p a{
     color: #e74c32;
     font-style: italic;
-    font-weight: ;
 }
 
 /* Styling skills section */
@@ -215,10 +214,6 @@ section .title::after{
 .sessions ul, li{
   list-style: none;
   padding: 0;
-}
-h3{
-  font-size: 1.1rem;
-  font-family: sans-serif;
 }
 .sessions{
   margin-top: 0rem;
@@ -576,6 +571,18 @@ h3{
         margin-left: 150px;
     }
 }
+@media(max-width:550px){
+    .home .home-content .sent2{
+        font-size: 42px;
+        font-weight: 500;
+        margin-left: -3px;
+    }
+    .contact .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+        margin-left: 120px;
+    }
+}
 @media(max-width:500px){
     .max-width{
         padding:0 23px;
@@ -589,6 +596,63 @@ h3{
         width: calc(50% - 10px);
         margin-bottom: 20px;
         margin-left: 115px;
+    }
+    .contact .card .info{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+@media(max-width:420px){
+    .max-width{
+        padding:0 23px;
+    }
+    .home .home-content .sent2{
+        font-size: 40px;
+        font-weight: 500;
+        margin-left: -3px;
+    }
+    .contact .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+        margin-left: 100px;
+    }
+    .contact .card .info{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+@media(max-width:370px){
+    .max-width{
+        padding:0 23px;
+    }
+    .home .home-content .sent2{
+        font-size: 40px;
+        font-weight: 500;
+        margin-left: -3px;
+    }
+    .contact .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+        margin-left: 87px;
+    }
+    .contact .card .info{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+@media(max-width:320px){
+    .max-width{
+        padding:0 23px;
+    }
+    .home .home-content .sent2{
+        font-size: 40px;
+        font-weight: 500;
+        margin-left: -3px;
+    }
+    .contact .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+        margin-left: 80px;
     }
     .contact .card .info{
         font-size: 10px;
